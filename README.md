@@ -4,6 +4,8 @@
 
 Strive AI Chatbot is a responsive web application built with Flask, Keras, and TensorFlow in the backend and React.js in the frontend. The chatbot is designed to provide career and well-being guidance to its users. It comes equipped with links to several reputable resources, and the user can interact with the chatbot by selecting from the options listed on clickable buttons, as well as some interactive elements such as animated gifs for topics such as anxiety help.
 
+Live App - https://navasmo.github.io/AI-Chatbot/
+
 ## Technologies Used
 
 * Flask
