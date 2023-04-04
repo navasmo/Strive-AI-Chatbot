@@ -1,57 +1,60 @@
-Strive AI Chatbot
+# Strive AI Chatbot
 
-Overview
+## Overview
+
 Strive AI Chatbot is a responsive web application built with Flask, Keras, and TensorFlow in the backend and React.js in the frontend. The chatbot is designed to provide career and well-being guidance to its users. It comes equipped with links to several reputable resources, and the user can interact with the chatbot by selecting from the options listed on clickable buttons, as well as some interactive elements such as animated gifs for topics such as anxiety help.
 
-Technologies Used
-Flask
-Keras
-TensorFlow
-React.js
-Vite bundler
-Getting Started
-To run the application, follow these steps:
+## Technologies Used
 
-Backend
-Clone the repository.
+* Flask
+* Keras
+* TensorFlow
+* React.js
+* Vite bundler
 
-bash
-Copy code
-git clone https://github.com/navasmo/AI-Chatbot.git
-cd ai-chatbot
-Create a new virtual environment using virtualenv.
+## Getting Started
 
-bash
-Copy code
-virtualenv venv
-source venv/bin/activate
-Install the required packages.
+* To run the application, follow these steps:
 
-bash
-Copy code
-pip install -r requirements.txt
-Start the Flask server.
+* Clone the repository.
 
-bash
-Copy code
-flask run
-Frontend
-In another terminal window, navigate to the frontend directory.
+* git clone https://github.com/navasmo/Strive-AI-Chatbot.git
 
-bash
-Copy code
-cd frontend
-Install the required packages.
+## BACKEND
 
-bash
-Copy code
-npm install
-Start the React app.
+* cd Strive-BE
 
-bash
-Copy code
-npm run dev
-Open http://localhost:3000/ in your browser.
+* Create a new virtual environment using virtualenv.
 
-Conclusion
-With Strive AI Chatbot, users can easily access valuable resources for career and well-being guidance. It's an excellent tool that helps users improve their lives and feel better equipped to tackle the challenges that come their way.
+* conda create -n venv
+
+* conda activate venv
+
+* conda install tensorflow
+
+* conda activate tf
+
+* Install the required packages.
+
+* pip install -r requirements.txt
+
+* Start the Flask server.
+
+* python app.py
+
+## FRONTEND
+
+* In another terminal window, navigate to the frontend directory.
+
+* cd Strive-FE
+
+* Install the required packages.
+
+* npm install
+
+* Start the React app.
+
+* npm run dev
+
+* Open http://localhost:5173/ in your browser.
+

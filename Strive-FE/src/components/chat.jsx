@@ -69,9 +69,9 @@ handleSendMessageToChatBot = (e, messageToSend) => {
   e.preventDefault();
   if (messageToSend !== "") {
     axios
-      //heroku server - https://strive-aibot.herokuapp.com/user
+    
       //local - http://127.0.0.1:5000/user
-      .post("https://strive-aibot.herokuapp.com/user", { msg: messageToSend })
+      .post("http://127.0.0.1:5000/user", { msg: messageToSend })
       .then((res) => {
         // Get the bot response and type from the server
         const botResponse = res.data;
