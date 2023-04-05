@@ -1,0 +1,364 @@
+{
+        "intents": [
+          {
+            "tag": "unknow",
+            "patterns": ["unknow"],
+            "responses": ["I didn't understand your question. Is your question related to career and well-being support. You can type in keywords or ask me questions. I'll do my best assist you."],
+            "context_set": ""
+          },
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day",
+              "what's up",
+              "hey",
+              "how it going"
+            ],
+            "responses": ["Hello, Strive Bot here! please tell me what can I help you with. You can type in keywords or ask me questions. I'll do my best assist you."],
+            "context_set": ""
+          },
+        
+          {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!. Do you require anu further help with career and well-being support?", "Any time!. Do you require anu further help with career and well-being support?", "My pleasure. Do you require anu further help with career and well-being support?"]
+          },
+          {
+                "tag": "career",
+                "patterns": [
+                  "kick start my career",
+                  "career change",
+                  "career guidance",
+                  "Career Guidance"
+                ],
+                "responses": [
+                  "You are at the right place! I can help you find the right guidance to kick start your career or make a career change. Let's discuss your goals and interests, and I can recommend resources and strategies to help you achieve them. Please choose an option from below."
+                ]
+          },
+          {
+            "tag": "explore_more_career",
+            "patterns": [
+              "topic explore more",
+              "more explore topic",
+              "explore topic more"
+             
+            ],
+            "responses": [
+              "What other career related topics do you need help with?, You can use keywords such as 'Interview Help', 'Resume', 'Cover Letter'."
+            ]
+          },
+          {
+            "tag": "explore_more_well-being",
+            "patterns": [
+               "explore more well-being topics",
+               "well being topic",
+               "explore more wellbeing topic"
+         
+            ],
+            "responses": [
+              "What other well-being related topics do you need help with?, You can use keywords such as 'Stress Managment', 'Get Active', 'Anxiety Help'. "
+            ]
+          },
+          {
+            "tag": "continue_workout",
+            "patterns": [
+              "continue"
+            ],
+            "responses": [
+              "Burpees: 3 sets of 10-12 reps"
+            ]
+          },
+          {
+            "tag": "push-ups",
+            "patterns": [
+              "push ups"
+   
+            ],
+            "responses": [
+              "Push ups: 3 sets of 10-12 reps"
+            ]
+          },
+          {
+            "tag": "lack_of_experience",
+            "patterns": [
+              "I don't have enough experience",
+              "I don't have a degree",
+              "I'm not qualified"
+            ],
+            "responses": [
+              "Gain valuable skills and experience through volunteering, internships, and online courses. Consider entry-level positions or internships that can help you build your professional network.",
+              "Emphasize your strengths, skills, and achievements on your resume and cover letter, and consider seeking out opportunities to demonstrate your potential, such as through internships or volunteer work.",
+              "Don't let self-doubt hold you back. Believe in yourself and your abilities, and be proactive in seeking out opportunities to grow and learn."
+                ]
+          },
+          {
+                "tag": "gain_experience",
+                "patterns": [
+                  "How can I gain experience?",
+                  "I need more experience",
+                  "How do I get experience?"
+                ],
+                "responses": [
+                  "There are many ways to gain valuable experience, such as volunteering, internships, and part-time or contract work. Consider reaching out to organizations or companies in your field of interest to inquire about opportunities to gain experience and build your professional network.",
+                  "Another option is to seek out online courses or educational programs that can help you learn new skills and enhance your knowledge in your field of interest. Many universities and colleges offer non-degree programs or certificate programs that can be completed online or on a part-time basis.",
+                  "Remember that experience comes in many forms, and even seemingly unrelated experiences can be valuable in terms of demonstrating your skills and abilities to potential employers. Consider highlighting any relevant experiences or achievements on your resume and cover letter to showcase your potential."
+                ]
+              },
+              {
+                "tag": "education",
+                "patterns": [
+                  "How do I choose the right course?",
+                  "What course should I take?",
+                  "I'm not sure what course to choose"
+                ],
+                "responses": [
+                  "Identify your goals and research courses that align with your interests and objectives. Consider the reputation of the institution and the format of the course. Factor in your budget and time constraints, and seek advice from friends, family, or professionals in your field. Trust your instincts and choose a course that excites and motivates you. Would like me to  show you some online resources to get more info?"
+                ]
+              },
+          {
+            "tag": "job_search",
+            "patterns": [
+              "I want find a job",
+              "looking for work",
+              "I need help finding work",
+              "find a job"
+            ],
+            "responses": ["To find a job, start by updating your resume and cover letter, and then use job search websites and job boards to find openings that match your criteria. You can also network with friends, family, and professionals in your field, and consider reaching out to companies directly to inquire about job openings. Don't be discouraged if you don't find a job right away – finding a job can be a long and challenging process, but with perseverance and a positive attitude, you will eventually find the right opportunity. would you like me suggest few good resources?"]
+          },
+          {
+                "tag": "job_search_online",
+                "patterns": [
+                  "online resources for job search",
+                  "job search resources online",
+                  "where can I find online help for job search?"
+                ],
+                "responses": [
+                  "Here are a few online resources that can help you with your job search: LinkedIn, Glassdoor, Indeed, Totaljobs, Reed.co.uk. Remember to tailor your job search to your goals and interests, and consider seeking help from a career coach or mentor if needed."
+                ]
+              },
+              {
+                "tag": "interview_training_resourses",
+                "patterns": [
+                  "online resources for interview tips",
+                  "online interview practice",
+                  "where can I find online help for interviews?"
+                ],
+                "responses": [
+                  "Here are a few online resources that can help you with interview tips and practice: LinkedIn Learning, Interview Cake, The Muse, Big Interview, Interviewstream. Remember to research the company and the job role, practice common interview questions, and consider seeking help from a career coach or mentor if needed."
+                ]
+              },
+              {
+                "tag": "resume_writing_resources",
+                "patterns": [
+                  "online resources for resume writing",
+                  "online resources for CV writing",
+                  "where can I find online help for resume and CV writing?"
+
+                ],
+                "responses": [
+                  "A strong resume can help you stand out and land your dream job. To create a winning resume, focus on highlighting your achievements, skills, and experience that are relevant to the position you are applying for. Use action verbs and specific examples to showcase your accomplishments. Keep the format clean and easy to read, and consider including a professional summary or objective statement to introduce yourself and your goals. Don't forget to proofread and have a trusted friend or mentor review your resume before you submit it."
+                ]
+              },
+              {
+                "tag": "cover_letter_resources",
+                "patterns": [
+                  "online resources for cover letter writing",
+                  "where can I find online help for cover letter writing?"
+                ],
+                "responses": [
+                  "Here are a few online resources that can help you with cover letter writing: LinkedIn Learning, The Muse, CareerBuilder, Monster, Jobscan. Remember to tailor your cover letter to the job role and company, and consider seeking help from a career coach or mentor if needed."
+                ]
+              },
+          {
+                "tag": "cover_letter",
+                "patterns": [
+                  "cover letter",
+                  "how to write a cover letter",
+                  "write cover letter"
+                ],
+                "responses": [
+                  "To write a strong cover letter, it is important to research the employer and the job role you are applying for to understand their needs and expectations. Start by introducing yourself and explaining why you are interested in the position. Next, highlight your relevant skills, experiences, and achievements that make you a strong candidate for the role. Conclude by expressing your enthusiasm for the opportunity and thanking the employer for considering your application."
+                ]
+          },
+          {
+            "tag": "resume",
+            "patterns": [
+            "resume",
+            "how to write a resume",
+            "write resume",
+            "write cv", 
+            "improve cv",
+            "cv", 
+            "Curriculum Vitae"
+            ],
+            "responses": [
+            "To write a strong resume, it is important to tailor it to the specific job role and employer you are applying for. Start by including your contact information and a professional summary that highlights your relevant skills and experiences. Next, list your work experience in reverse chronological order, including the job title, company name, and duties. Include any education and professional development as well. Consider including relevant skills and achievements, and be sure to use keywords that match the job posting. Finally, proofread your resume for spelling and grammar errors."
+            ]
+            },
+          {
+                "tag": "interview_training",
+                "patterns": [
+                  "interview training",
+                  "attend interview",
+                  "interview prep",
+                  "prepare for interview"
+                ],
+                "responses": [
+                  "Before attending a job interview, read the job description and person specification carefully. Be clear on the skills and qualities the employer is looking for, and check the company website to learn about its products or services and future plans. Review your CV or application form and prepare examples that show you have the right skills, personal qualities, and experience. Consider using the STAR method to structure your examples."
+                ]
+          },
+          {
+            "tag": "well-being",
+            "patterns": [
+              "wellbeing",
+              "well being",
+              "well-being",
+              "well being guidance",
+              "well-being guidance"
+            ],
+            "responses": [
+              "You are in the right place to find guidance for your well-being. Let's discuss your current state of mind and well-being, and I can recommend resources and strategies to help you improve your overall sense of well-being and mental health. Please select on of the following options."
+            ]
+          },
+          {
+                "tag": "stress",
+                "patterns": [
+                  "I am stressed",
+                  "I'm feeling stressed",
+                  "I am feeling overwhelmed"
+                ],
+                "responses": [
+                  "To manage stress and improve your well-being, try taking breaks, practicing relaxation techniques, getting enough sleep, eating a healthy diet, and seeking support from friends or professionals. Remember to prioritize your mental health and don't hesitate to seek help if you need it."
+                ]
+              },
+              {
+                "tag": "stress_managment",
+                "patterns": [
+                  "how to manage stress",
+                  "stress management",
+                  "I need help with stress"
+                ],
+                "responses": [
+                  "To manage stress, try taking breaks, practicing relaxation techniques, getting enough sleep, eating a healthy diet, and seeking support from friends or professionals. Remember to prioritize your mental health and don't hesitate to seek help if you need it."
+                ]
+              },
+          {
+            "tag": "get_active",
+            "patterns": ["get active", "active", "Feel energised", "being active"],
+            "responses": [
+              "Getting active is an important aspect of maintaining physical and mental well-being. There are many different ways to be active, including exercising, going for a walk or run, playing sports, dancing, or even gardening. The key is to find activities that you enjoy and that fit into your schedule and lifestyle. Regular physical activity can help reduce stress, improve sleep, boost mood, and strengthen the immune system."
+            ]
+          },
+          {
+            "tag": "show_exersices",
+            "patterns": ["do workouts", "show me workouts", "help me find get fit", "get fit", "exercise routine", "quick workouts"],
+            "responses": [
+              "Sure, I can help with some quick exercises to get you moving! Jumping jacks are a great way to start off your routine, as they warm up your entire body and get your heart rate up. You can do jumping jacks for about 30 seconds to a minute to get your body moving and ready for the next exercises."
+            ]
+          },
+          {
+            "tag": "anxiety",
+            "patterns": [
+              "feeling anxious",
+              "anxiety",
+              "anxious",
+              "I'm feeling anxious",
+              "help with anxiety"
+            ],
+            "responses": [
+              "Anxiety is a normal emotion that everyone experiences from time to time, but when it becomes overwhelming, it can interfere with daily life. If you are struggling with anxiety, it is important to remember that you are not alone and that there is help available. You can start by talking to a trusted friend, family member, or mental health professional. Practicing relaxation techniques such as deep breathing and mindfulness can also be helpful. There are also many online resources and support groups available to help you manage your anxiety. Remember to take care of yourself and seek help if needed."
+            ]
+          },
+          {
+            "tag": "breathing_exercises",
+            "patterns": [
+              "breathing exercises",
+              "help me breath",
+              "breath",
+              "I feel suffocated",
+              "I am feeling overwhelmed"
+            ],
+            "responses": [
+              "Breathing exercises are a great way to reduce stress and improve overall well-being. Try incorporating them into your daily routine for added benefits!, Follow the instructions on the visuals to get started."
+            ]
+          },
+          {
+                "tag": "online_resources_stress",
+                "patterns": [
+                  "websites for stress management help",
+                  "stress management help websites",
+                  "where can I find stress management help online?"
+                ],
+                "responses": [
+                  "Here are a few websites that can help you find resources and support for stress management: Headspace, Talkspace, BetterHelp, Anxiety and Depression Association of America, National Alliance on Mental Illness. Remember to prioritize your mental health and don't hesitate to seek help if you need it."
+                ]
+              },
+              {
+                "tag": "online_resources_anxiety",
+                "patterns": [
+                  "websites for anxiety help",
+                  "anxiety help websites",
+                  "where can I find anxiety help online?"
+                ],
+                "responses": [
+                  "Here are a few websites that can help you find resources and support for managing anxiety: Headspace, Talkspace, BetterHelp, Anxiety and Depression Association of America, National Alliance on Mental Illness. Remember to prioritize your mental health and don't hesitate to seek help if you need it."
+                ]
+              },
+              {
+                "tag": "stress_anxiety_management",
+                "patterns": [
+                  "apps for stress management",
+                  "apps for anxiety management",
+                  "where can I find apps to help with stress and anxiety?"
+                ],
+                "responses": [
+                  "There are many apps available that can help with stress and anxiety management. Here are a few examples: Headspace, Calm, Happify, Pacifica. Remember to speak with a mental health professional if you are experiencing severe or persistent stress or anxiety, and consider seeking professional help if necessary."
+                ]
+              },
+          {
+            "tag": "get_help",
+            "patterns": ["i need help", "help", "I am worried about things"],
+            "responses": [
+              "Take a deep breath, I can guide you to the right recourse to find help, Tell me what kind of help are you looking for?"
+            ]
+          },
+          {
+            "tag": "useful_resources",
+            "patterns": ["where to find resources", "useful resources?", "Resources"],
+            "responses": [
+              "Here are some useful resources that you can look up to get help"
+            ]
+          },
+          {
+            "tag": "end_chat",
+            "patterns": [
+              "END CHAT",
+              "end chat",
+              "end"
+            ],
+            "responses": [
+              "Thank you for using StriveAI"
+            ]
+          },
+          {
+                "tag": "goodbye",
+                "patterns": [
+                  "cya",
+                  "See you later",
+                  "Goodbye",
+                  "end",
+                  "Have a Good day",
+                  "bye",
+                  "cao",
+                  "see ya"
+                ],
+                "responses": [
+                  "Thank you for using StriveAI"
+                ]
+              }
+        ]
+      }

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Orbitron:wght@400;700&display=swap");
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.begin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vh;
+}
+
+@media only screen and (min-width: 768px) {
+  #root {
+    width: 100vw;
+    height: 100%;
+  }
+}
+
+html {
+  height: -wenkit-fill-available;
+}
+
+h3{
+  font-family:Kodchasan;
+  color: #911CBE;
+  text-align: center;
+}
+.begin-button{
+  font-family:Kodchasan;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 40%;
+  background-color: white;
+  color: #911CBE;
+  border-radius: 35px 35px 35px 35px;
+  border-style: double;
+  border-width: 5px;
+  height: 50px;
+  width: 20vh;
+  border-color: #911CBE;
+}
+
+
+
+*:focus {
+  outline: none;
+}

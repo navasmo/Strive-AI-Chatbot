@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #911CBE;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: "Zen_Dots";
+  src: local("ZenDots-Regular"),
+   url("./fonts/Zen_Dots/ZenDots-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
+html{
+    height: -wenkit-fill-available;
+}
+  
