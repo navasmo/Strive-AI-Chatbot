@@ -22,6 +22,22 @@ Live App - https://navasmo.github.io/AI-Chatbot/
 
 * git clone https://github.com/navasmo/Strive-AI-Chatbot.git
 
+## FRONTEND
+
+* In another terminal window, navigate to the frontend directory.
+
+* cd Strive-FE
+
+* Install the required packages.
+
+* npm install
+
+* Start the React app.
+
+* npm run dev
+
+* Open http://localhost:5173/ in your browser.
+
 ## BACKEND
 
 * cd Strive-BE
@@ -44,19 +60,5 @@ Live App - https://navasmo.github.io/AI-Chatbot/
 
 * python app.py
 
-## FRONTEND
 
-* In another terminal window, navigate to the frontend directory.
-
-* cd Strive-FE
-
-* Install the required packages.
-
-* npm install
-
-* Start the React app.
-
-* npm run dev
-
-* Open http://localhost:5173/ in your browser.
 
